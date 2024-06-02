@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.module {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+.module h2 {
+  margin-top: 0;
+}
+
+.module input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.module .resources {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.resource {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.resource:last-child {
+  border-bottom: none;
+}
+
+.resource p, .resource a {
+  margin: 0;
+}
+
+.resource a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resource a:hover {
+  text-decoration: underline;
+}
+
+.resource input[type="text"] {
+  width: 60%;
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.resource button {
+  background-color: #f44336;
+  color: white;
+}
+
+.resource button:hover {
+  background-color: #d32f2f;
+}
+
+.link-form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.link-form input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.link-form button {
+  background-color: #007bff;
+  color: white;
+}
+
+.link-form button:hover {
+  background-color: #0056b3;
+}
